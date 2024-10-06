@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="gallery-title">My Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpeg" alt="CUTE PIGGY" class="gallery-image" />
+            <span class="fav-icon" data-id="image1">&#9733;</span>
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpeg" alt="CLOWN SHEEP" class="gallery-image" />
+            <span class="fav-icon" data-id="image2">&#9733;</span>
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpeg" alt="SPA DOGGY" class="gallery-image" />
+            <span class="fav-icon" data-id="image3">&#9733;</span>
+        </div>
+        <div class="gallery-item">
+          <img src="image4.jpeg" alt="PRINCESS FROG" class="gallery-image" />
+          <span class="fav-icon" data-id="image4">&#9733;</span>
+        </div>
+        <div class="gallery-item">
+           <img src="image5.jpeg" alt="MOODY MOO" class="gallery-image" />
+           <span class="fav-icon" data-id="image5">&#9733;</span>
+        </div>
+        <div class="gallery-item">
+          <img src="image6.jpeg" alt="GYM RAT" class="gallery-image" />
+          <span class="fav-icon" data-id="image6">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image7.jpeg" alt="POSSESSED BY ZAYN MALIK" class="gallery-image" />
+        <span class="fav-icon" data-id="image7">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image8.jpeg" alt="KILLER RAT" class="gallery-image" />
+        <span class="fav-icon" data-id="image8">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image9.jpeg" alt="BEE STINGED BEE" class="gallery-image" />
+        <span class="fav-icon" data-id="image9">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image10.jpeg" alt="PINTEREST MOUSE" class="gallery-image" />
+        <span class="fav-icon" data-id="image10">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image11.jpeg" alt="YELLOW FEVER RATTY" class="gallery-image" />
+        <span class="fav-icon" data-id="image11">&#9733;</span>
+      </div>
+      <div class="gallery-item">
+        <img src="image12.jpeg" alt="COOL CHICK" class="gallery-image" />
+        <span class="fav-icon" data-id="image12">&#9733;</span>
+      </div>
+      
+    </div>
+
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="image-caption"></div>
+        
+    </div>
+    <h2>Favorites</h2>
+    <div id="favorites" class="gallery"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
